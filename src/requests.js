@@ -1,6 +1,6 @@
 require('dotenv').config();
-const APIKEY = process.env.REACT_APP_APIKEY;
-
+// const APIKEY = process.env.REACT_APP_APIKEY;
+const APIKEY = '33602483d03e1f524dd520f44d8b44da';
 const requests = {
   fetchTrending: `/trending/all/week?api_key=${APIKEY}&language=en-US`,
   fetchNetflixOriginals: `/discover/tv?api_key=${APIKEY}&with_networks=213`,
